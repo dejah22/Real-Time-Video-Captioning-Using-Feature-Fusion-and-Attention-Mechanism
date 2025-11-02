@@ -1,12 +1,15 @@
 # Real Time Video Captioning Using Feature Fusion and Attention Mechanism
 
-This repository contains the implementation code for the paper Real Time Video Captioning Using Feature Fusion and Attention Mechanism published in Springer's Signal, Image and Video Processing Journal.
+This repository contains the implementation code for the paper Real Time Video Captioning Using Feature Fusion and Attention Mechanism published in _Signal, Image and Video Processing (Springer, 2025)_.
 
 [Link to the research paper](https://link.springer.com/article/10.1007/s11760-025-04622-6) for elaboration on rationale, methodology, testing, qualitative and quantitative analysis, as well the algorithm exposition. 
 
-## Cite Us
+Please find our online supplements for implementational details and experiments: 
 
-[Link to the Research Paper](https://ceur-ws.org/Vol-3497/paper-136.pdf).
+[Supplementary file 1 (pdf 983 KB)](https://static-content.springer.com/esm/art%3A10.1007%2Fs11760-025-04622-6/MediaObjects/11760_2025_4622_MOESM1_ESM.pdf) <br/>
+[Supplementary file 2 (pdf 107 KB)](https://static-content.springer.com/esm/art%3A10.1007%2Fs11760-025-04622-6/MediaObjects/11760_2025_4622_MOESM2_ESM.pdf)
+
+## Cite Us
 
 If you find our work useful in your research, don't forget to cite us!
 
@@ -52,5 +55,15 @@ https://github.com/albanie/collaborative-experts/blob/master/misc/datasets/msvd/
   * (CPU/GPU/TPU) with min 8GB RAM: Better processor, faster the output :p
 
 ## Key Highlights
+We present two variations, CYF-KAL (CNN-YOLOv8 Fusion with Keras Attention Layer) and CYF-CAL (CNN-YOLOv8 Fusion with Custom Attention Layer), of our proposed system for real-time scene identification and description. 
 
-### Results
+<figure>
+  <img width="1491" height="776" alt="image" src="https://github.com/user-attachments/assets/d8bcd09a-7e14-47ff-84bd-a860286b70ac" />
+  <figcaption> Fig 1: Proposed architecture </figcaption>
+</figure>
+
+## Results
+The proposed approach outperforms our baseline model by over 20% in BLEU-4 and METEOR scores, with a 54% drop in average inference time from the baseline.
+<img width="1155" height="412" alt="image" src="https://github.com/user-attachments/assets/a656c6be-a907-4a60-82ee-cf5ece8a8a4c" />
+
+<img width="1147" height="240" alt="image" src="https://github.com/user-attachments/assets/12a0940c-14f5-4b70-91f3-658100864cfc" />
